@@ -1,5 +1,5 @@
   
-from .GAMMLI import GAMMLI
+from .gammli import GAMMLI
 
 
 __all__ = ['GAMMLI']
