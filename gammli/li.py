@@ -3,7 +3,7 @@
 
 import numpy as np 
 from .soft_impute import SoftImpute
-from .ALS import SoftImpute_ALS
+from .als import SoftImpute_ALS
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, roc_auc_score
 from joblib import Parallel, delayed 
