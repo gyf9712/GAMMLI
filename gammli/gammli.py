@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 18 16:56:00 2020
-
-@author: suyu
-"""
 import os
 import time
 import numpy as np
 import tensorflow as tf
-from .LI import LatentVariable
+from .li import LatentVariable
 from .gaminet import GAMINet
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans 
